@@ -12,7 +12,7 @@ func main() {
 }
 
 func sayHello(c *fiber.Ctx) error {
-	word := "Hello, World!!"
+	word := "Hello, World!!!"
 
 	return c.JSON(fiber.Map{
 		"message": word,
